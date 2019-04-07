@@ -1,4 +1,58 @@
-.my-custom-div {
-    background-color: #000000; 
-    padding: 20px;
-  }
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css"
+        href="teststyle2.css">
+        <title>Test2</title>
+    </head>
+    <body>
+        <div id="wrapper">
+
+        
+          <div class="elevation" id="first">
+            <div class="windowfirst1"></div>
+            <div class="windowfirst1"></div>
+          </div>
+            
+          <div class="elevation" id="second">
+             <div class="windowsecond1"></div>
+             <div class="windowsecond1"></div>
+          </div>
+
+          <div class="elevation" id=third>
+             <div class="windowthird1"></div>
+             <div class="windowthird1"></div>
+             <div class="windowthird1"></div>
+          </div>
+            
+
+            <span class="roof" id="first"></span>
+            
+            <span class="roof" id="second"></span>
+            <span class="roof" id="third"></span>
+    
+          <div class="ground" id=ground1></div>
+          <div class="ground" id=ground2></div>
+          <div class="ground" id=ground3></div>
+
+          <div class="circle"></div>
+          <div class="star1"></div>
+          <div class="star2"></div>
+          <div class="star3"></div>
+          <div class="star4"></div>
+          <div class="star5"></div>
+          <div class="star6"></div>
+          <div class="star7"></div>
+          <div class="star8"></div>
+          <div class="star9"></div>
+          <div class="star10"></div>
+          <div class="star11"></div>
+          <div class="star12"></div>
+        </div>
+  
+
+
+
+    
+    </body>
+</html>
