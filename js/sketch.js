@@ -1,4 +1,4 @@
-function move_img(str) {
+/*function move_img(str) {
 
     switch(str){
 
@@ -9,4 +9,6 @@ function move_img(str) {
     
     
     }
-    }
+    }*/
+
+document.getElementById('theButton').onclick = leftClick;
