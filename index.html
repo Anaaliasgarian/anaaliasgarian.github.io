@@ -1,59 +1,26 @@
-
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Hello, World!</title>
-    <link rel=stylesheets href="css/style.css">
-    <script>
-        alert("Hello, World!");
-      </script>
-  </head>
-  <body>
-    <h1>Hello!</h1>
-    <p>HI</p>
-    <div id="wrapper">
-
+    <head>
+        <link rel="stylesheet" type="text/css"
+        href="style.css">
+        <title>Error Page</title>
         
-      <div class="elevation" id="first">
-        <div class="windowfirst1"></div>
-        <div class="windowfirst1"></div>
-      </div>
+    </head>
+    <body>
+        <div class="rounded_rectangle"></div>
         
-      <div class="elevation" id="second">
-         <div class="windowsecond1"></div>
-         <div class="windowsecond1"></div>
-      </div>
+        <p class=errormessage>Unable to connect to the internet </p>
+        <a href="https://www.google.com/" class = reportbutton>Report</a>
+       
+        <img src="trex.gif" height= 90px class = trex id="i1">
+        <img src="trex1.png" height= 90px class = trex1 id= "tr1">
+        <script src="sketch.js"></script>
+        <!-- <button id="theButton">Fix This</button>  -->
 
-      <div class="elevation" id=third>
-         <div class="windowthird1"></div>
-         <div class="windowthird1"></div>
-         <div class="windowthird1"></div>
-      </div>
+        <!-- <img src="http://pluspng.com/img-png/circle-png-circle-png-hd-1600.png" id='i1' style="position:absolute; left: 500; top: 100;"> -->
+        
+        <input type=button id="theButton" onClick=move_img('right') value='Fix This'>
         
 
-        <span class="roof" id="first"></span>
-        
-        <span class="roof" id="second"></span>
-        <span class="roof" id="third"></span>
-
-      <div class="ground" id=ground1></div>
-      <div class="ground" id=ground2></div>
-      <div class="ground" id=ground3></div>
-
-      <div class="circle"></div>
-      <div class="star1"></div>
-      <div class="star2"></div>
-      <div class="star3"></div>
-      <div class="star4"></div>
-      <div class="star5"></div>
-      <div class="star6"></div>
-      <div class="star7"></div>
-      <div class="star8"></div>
-      <div class="star9"></div>
-      <div class="star10"></div>
-      <div class="star11"></div>
-      <div class="star12"></div>
-    </div>
-
-  </body>
+    </body>
 </html>
