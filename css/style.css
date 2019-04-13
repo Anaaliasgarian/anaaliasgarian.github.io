@@ -1,5 +1,6 @@
 body{
-  background-color: gainsboro
+  background-color: gainsboro;
+  overflow: hidden;
 }
 .rounded_rectangle {
   border-radius: 5px;
@@ -51,7 +52,7 @@ a {
   left: 620px;
   top: 200px;
   z-index: 6;
-
+  transition: left 5s;
 }
 #theButton {
   position: absolute;

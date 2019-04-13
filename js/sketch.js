@@ -26,5 +26,6 @@
         }
 
     function moveimage() {
-        const trex= document.getElementById('tr');trex.style.left = '850';
+        imageChange();
+        const trex= document.getElementById('tr1');trex.style.left = '1800px';
      }
