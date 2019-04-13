@@ -12,3 +12,6 @@
     }*/
 
 document.getElementById('theButton').onclick = leftClick;
+function leftClick() {
+    document.getElementById('btr').style.left = 0;
+  }
