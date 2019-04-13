@@ -13,7 +13,7 @@
 
     function imageChange()
     {
-    document.getElementById("tr1").src="./assets/trex.gif";
+    document.getElementById("tr1").src="./assets/trex.gif" ;
     }
 
     function move_img(str) {
@@ -26,5 +26,5 @@
         }
 
     function moveimage() {
-        const trex= document.getElementById('tr');trex.style.left = '800';
+        const trex= document.getElementById('tr');trex.style.left = '850';
      }
