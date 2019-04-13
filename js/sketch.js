@@ -22,7 +22,9 @@
         case "right":
         document.getElementById('tr').style.left=1200 + "px";
         break;
-        
-        
         }
         }
+
+    function moveimage() {
+        const trex= document.getElementById('tr');trex.style.left = '800';
+     }
