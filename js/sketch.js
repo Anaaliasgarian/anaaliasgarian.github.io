@@ -11,7 +11,18 @@
     }
     }*/
 
-document.getElementById('theButton').onclick = leftClick;
-function leftClick() {
-    document.getElementById('btr').style.left = 0;
-  }
+    function imageChange()
+    {
+    document.getElementById("tr1").src="./assets/trex.gif";
+    }
+
+    function move_img(str) {
+
+        switch(str){
+        case "right":
+        document.getElementById('tr').style.left=1200 + "px";
+        break;
+        
+        
+        }
+        }
